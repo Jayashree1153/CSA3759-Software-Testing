@@ -1,0 +1,3 @@
+javac EX1.java
+javac -cp .;junit-4.13.2.jar;hamcrest-core-1.3.jar EX1.java
+java -cp .;junit-4.13.2.jar;hamcrest-core-1.3.jar org.junit.runner.JUnitCore EX1Test
